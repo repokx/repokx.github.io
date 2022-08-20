@@ -1,7 +1,7 @@
----
-sort: 1
+# scrIPTs
+
 ---
 
-# Docs folder
+### explore
 
 {% include list.liquid all=true %}

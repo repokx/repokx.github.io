@@ -1,7 +1,7 @@
----
-sort: 1
+# ReSearch
+
 ---
 
-# Docs folder
+### explore
 
 {% include list.liquid all=true %}
