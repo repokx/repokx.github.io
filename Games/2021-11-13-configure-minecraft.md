@@ -1,11 +1,4 @@
----
-layout: post
-title:  如何使用HMCL启动器配置Java版Minecraft
-date:   2021-11-13 22:22:00 +0800
-categories: [Games]
-tag: [Java, Minecraft]
----
-
+# 如何使用HMCL启动器配置Java版Minecraft
 ## 1. Backgroud
 
 Minecraft，我的世界，众所周知，分为 Java 版和基岩版。Java 版在运行时必须安装 Java 运行环境。
