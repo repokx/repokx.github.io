@@ -1,3 +1,9 @@
-# I'm folder1
+# SYNC
+
+---
+
+### explore
+
+{% include list.liquid all=true %}
 
 source: `{{ page.path }}`
