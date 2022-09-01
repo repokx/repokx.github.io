@@ -9,13 +9,19 @@ mermaid: false
 pin: false
 ---
 
+# 重新学习建立网站
+
 # 1.缘起
+
+```note
 
 之前在考试周的时候就一直想着做一个博客，所以在做课设的闲暇之余，以至于之前通了几次宵。我都一直在抽出时间来做我自己的博客，但是苦于自己并没有相关的编程基础，也没学过 CSS，也不了解 html，甚至连 markdown 的语法都不是很清楚。又缘于前两天因为 OneDrive 配置失败搞得自己电脑的 document 文件夹也乱了，把电脑强制重置了 21H1 的版本，重置了所有的应用，也算是为了迎接马上要到来的 Win11 更新。今天又准备来搞一搞自己的博客。
 
 其实是有这么回事的，本来想着自己再按照之前的方法用官网的教程再装一个 ruby、Jekyll，然后直接重新做一个网页。但是总有种重蹈覆辙的方法，于是今天从 YouTube 上找到了这么一个人的视频，也算是好好学习一下到底怎么建立一个网站。网站附下：
 
-> [Jekyll 博客系列 - 01 快速入门 - YouTube](https://www.youtube.com/watch?v=Zt_QzSbyDcw&list=PLK2w-tGRdrj7vzX7Y-GqKPb2QPrHCYZY1)
+[Jekyll 博客系列 - 01 快速入门 - YouTube](https://www.youtube.com/watch?v=Zt_QzSbyDcw&list=PLK2w-tGRdrj7vzX7Y-GqKPb2QPrHCYZY1)
+
+```
 
 ***
 
@@ -210,7 +216,8 @@ Jekyll 官方提供了以下链接：
 
 本部分介绍 chirpy 模板的初始包 “chirpy-starter”，打开上文中提到的链接，点击 `Use This Template`，使用这个模板创建你自己的库。
 
-![template](/assets/img/recreate_blog/template.png)_**图3.1**  使用模板创建库_
+![template](/assets/img/recreate_blog/template.png)
+<center style="color:grey">图1 使用模板创建库 </center>
 
 而后按照图3.2中的方式 fork 你的 blog 仓库，把其中的 “XXXXX” 改成你自己的 github 用户名，当然你换成别的也可以，但是你需要对 `_config.yml` 里的 `baseurl` 这一项作修改。
 
@@ -226,7 +233,9 @@ https://your_github_name.github.io/your_repository_name
 # your_repository_name: 你创建的仓库名称
 ```
 
-![template1](/assets/img/recreate_blog/template_2.png)_**图3.2**  使用模板创建库_
+![template1](/assets/img/recreate_blog/template_2.png)
+
+<center style="color:grey">图2 使用模板创建库</center>
 
 ## 3.2 change everything locally
 
@@ -302,6 +311,7 @@ $ git push origin main		# 发布到 remote 端
 
 回到 GitHub 上的仓库（远端），通过*Settings* → *Options* → *GitHub Pages* 选择分支 `gh-pages` 作为[发布源](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)：
 
-![push](/assets/img/recreate_blog/push.png)_**图3.3**  发布你的 blog_
+![push](/assets/img/recreate_blog/push.png)
+<center style="color:grey">图3 发布你的 blog</center>
 
 大功告成！接下来就可以按照上图中的指引访问你的 blog 了~

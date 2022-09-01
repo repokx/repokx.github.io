@@ -1,10 +1,11 @@
 ---
-title:  修改注册表使原生 win11 右键菜单更改为 win10 样式
+title:  修改注册表 还原任务栏样式
 date:   2021-10-21 23:06:00 +0800
 categories: [Developing, System Development]
 tag: [win11]
 mermaid: ture
 ---
+# 修改注册表 还原任务栏样式
 
 # 背景
 
@@ -20,8 +21,9 @@ win11 什么都挺好的，就是它的右键菜单实在是... 没话说。
 
 预先强调：
 
-> **注意：**
-> 进行注册表编辑之前**必须**对注册表进行备份，并且**了解**注册表的备份恢复方法，以免发生注册表**重大错误导致系统崩溃**
+```
+进行注册表编辑之前必须对注册表进行备份，并且了解注册表的备份恢复方法，以免发生注册表重大错误导致系统崩溃
+```
 
 ---
 
@@ -29,7 +31,8 @@ win11 什么都挺好的，就是它的右键菜单实在是... 没话说。
 
 2. 输入 `regedit`，进入注册表编辑窗口
 
-   ![run dock](https://z3.ax1x.com/2021/10/22/5yjZDI.png)_**图1**  运行窗口界面_
+   ![run dock](https://z3.ax1x.com/2021/10/22/5yjZDI.png)
+   <center style="color:grey">图1 运行窗口界面</center>
 
 3. 在以下目录中：
 
@@ -43,19 +46,23 @@ win11 什么都挺好的，就是它的右键菜单实在是... 没话说。
    {86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32
    ```
 
-   ![New Directories](https://z3.ax1x.com/2021/10/22/5yjDxJ.png)_**图2**  创建图示目录_
+   ![New Directories](https://z3.ax1x.com/2021/10/22/5yjDxJ.png)
+   <center style="color:grey">图2 创建图示目录</center>
 
 4. 你将发现新建的 `InprocServer` 默认生成了一个“默认”变量，它的值为“数值未设置”
 
-   ![Data Unset](https://z3.ax1x.com/2021/10/22/5yj6q1.png)_**图3**  变量默认预设_
+   ![Data Unset](https://z3.ax1x.com/2021/10/22/5yj6q1.png)
+   <center style="color:grey">图3 变量默认预设</center>
 
 5. 双击该条目并打开，确认数据栏内容为空，确认，保存注册表如下：
 
-   ![Edit Reg](https://z3.ax1x.com/2021/10/22/5yj5xH.png)_**图4**  确认内容为空_
+   ![Edit Reg](https://z3.ax1x.com/2021/10/22/5yj5xH.png)
+   <center style="color:grey">图4 确认内容为空</center>
 
 6. 重启电脑，得到原生 win10 样式的圆角完整右键菜单
 
-   ![contract](https://z3.ax1x.com/2021/10/22/5yxQXj.png)_**图5**  新旧菜单对比_
+   ![contract](https://z3.ax1x.com/2021/10/22/5yxQXj.png)
+   <center style="color:grey">图5 新旧菜单对比</center>
 
 # 还原方法
 

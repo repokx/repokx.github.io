@@ -1,9 +1,11 @@
 ---
-title: 学习类博文转移至存档网页/Archive
+title: 学习类博文转移至子域/Archive
 time: 2021-07-08 16:00:00 +0800
 categories: [Developing, Blogging]
 tag: courses
 ---
+
+# 学习类博文转移到子域 /archive
 
 ### hey，我亲爱的同学们：
 
@@ -21,9 +23,13 @@ tag: courses
 
 <p align="right">2021.7.8</p>
 
-> 现在副页还没有应用 disqus 评论区功能，如有任何**关于副页内容**的疑问
->
-> + 在**<u>此页面</u>**下留言
-> + 评论到我的 twitter **私信**
-> + 发送邮件到我的 gmail（参见页面左下角邮箱示意图）
+```note
+现在副页还没有应用 disqus 评论区功能，如有任何关于副页内容的疑问
 
+在此页面下留言
+
+评论到我的 twitter 私信
+
+发送邮件到我的 gmail（参见页面左下角邮箱示意图）
+
+```

@@ -1,11 +1,11 @@
 ---
-title: 使用 OneDrive 对电脑内的任意文件进行备份并删除本地文件
+title: 使用 OneDrive 备份文件
 date: 2021-06-28 12:24:00 +0800
 catagories: [Developing, Sync]
 tag: [OneDrive]
 ---
 
-## 使用 OneDrive 对电脑内的任意文件进行备份
+## 使用 OneDrive 备份文件
 
 ### 1. Preface
 

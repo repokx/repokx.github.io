@@ -4,6 +4,8 @@ date:   2021-06-03 03:03:00 +0800
 categories: [Developing, System Development]
 tag: [Ubuntu, BiSystem]
 ---
+# Ubuntu-win 双系统配置心得
+
 ### 1.缘起
 之前听到老师们提到很多专业的软件后期还是需要在以linux为基础架构的设备上去跑，原因是linux的计算结构与windows不同。
 之前也有安装linux的经历，三次安装，一次成功，一次把C盘给格了，一次无疾而终，总之是四处碰壁...
