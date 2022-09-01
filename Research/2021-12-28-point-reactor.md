@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  点堆中子动力学方程求解程序
 date:   2021-12-28 18:11:00 +0800
 categories: [Research]

@@ -1,6 +1,6 @@
 # Developing
 
-include 4 folders, remeber to open
+编程开发中遇到的问题的心得与记录
 
 ---
 

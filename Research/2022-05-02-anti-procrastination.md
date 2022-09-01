@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  拖延心理学 笔记
 date:   2022-05-02 23:00:00 +0800
 categories: [Research]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  研究生应该培养什么样的能力
 date:   2021-04-20 16:59:00 +0800
 categories: [Research]

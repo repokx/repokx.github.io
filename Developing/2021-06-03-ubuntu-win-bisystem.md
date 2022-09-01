@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Ubuntu-win 双系统配置心得
 date:   2021-06-03 03:03:00 +0800
 categories: [Developing, System Development]

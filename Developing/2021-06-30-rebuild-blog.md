@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  重新学习建立网站
 author: Repo Xu
 date:   2021-06-30 22:38:00 +0800

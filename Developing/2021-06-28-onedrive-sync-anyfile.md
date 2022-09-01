@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 使用 OneDrive 对电脑内的任意文件进行备份并删除本地文件
 date: 2021-06-28 12:24:00 +0800
 catagories: [Developing, Sync]

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  修改注册表使原生 win11 右键菜单更改为 win10 样式
 date:   2021-10-21 23:06:00 +0800
 categories: [Developing, System Development]

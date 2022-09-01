@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  使用 oh my posh 美化 terminal 基础教程
 date:   2022-02-19 18:08:00 +0800
 categories: [Developing, System Development]
