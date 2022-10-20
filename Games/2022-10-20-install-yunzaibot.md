@@ -93,3 +93,13 @@ node app
 
 
 完
+
+---
+
+# reference
+
+[1] [bilibili | **原神机器人Yunzai-Bot window搭建教程**](https://www.bilibili.com/read/cv15119056)
+
+[2] [github | **Yunzai-Bot**](https://github.com/Le-niao/Yunzai-Bot)
+
+[3] [github | **miao-plugin**](https://github.com/yoimiya-kokomi/miao-plugin)
