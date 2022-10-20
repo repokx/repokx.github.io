@@ -8,13 +8,17 @@
 
 至少**v14**以上
 
-![node](.\Games\node.jpg)
+![node](..\pics\node.jpg)
 
 ### 1.2 redis
 
 `https://github.com/tporadowski/redis/releases`
 
-解压后，双击`redis-server.exe` 保持运行即可，会产生一个代码棱柱。如果没有，说明没运行，尝试：
+解压后，双击`redis-server.exe` 保持运行即可，会产生一个代码棱柱如图。
+
+![redis-config](..\pics\redis-config.png)
+
+如果没有，说明没运行，尝试：
 
 1. 在redis根目录下新建start.bat，并写入
 
