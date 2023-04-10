@@ -8,7 +8,7 @@
 
 至少**v14**以上
 
-![node](..\pics\node.jpg)
+![node](../assets/img/install_yunzai/node.jpg)
 
 ### 1.2 redis
 
@@ -16,7 +16,7 @@
 
 解压后，双击`redis-server.exe` 保持运行即可，会产生一个代码棱柱如图。
 
-![redis-config](..\pics\redis-config.png)
+![redis-config](../assets/img/install_yunzai/redis-config.png)
 
 如果没有，说明没运行，尝试：
 
