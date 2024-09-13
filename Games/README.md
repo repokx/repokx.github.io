@@ -1,6 +1,6 @@
 # games
 
-superficial
+superficials
 
 ---
 
