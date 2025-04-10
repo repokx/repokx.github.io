@@ -8,7 +8,7 @@ tag: [Skills]
 ---
 > 本文摘自研招网同名文章
 
-美国科学院于发布的一本"[Careers in Science and Technology: A Student Planning Guide to Grad School and Beyond](http://www.nap.edu/openbook.php?record_id=5129)"，里面第133和134页谈到了我们念研究生应该培养什么样的能力。
+美国科学院于发布的一本"[Careers in Science and Technology: A Student Planning Guide to Grad School and Beyond](https://www.nap.edu/openbook.php?record_id=5129)"，里面第133和134页谈到了我们念研究生应该培养什么样的能力。
 
 **Skills and Attributes that Contribute to a Successful Career as a Scientist, Engineer, Scholar, or Professional**
 
