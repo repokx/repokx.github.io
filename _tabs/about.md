@@ -74,6 +74,7 @@ E_{\nu} d\nu
 $$
 
 > 感谢这个博客模板的作者 [cotes](https://github.com/cotes2020)，和fork源的作者 [You Koutaku](https://github.com/youkoutaku)
+>
 > cotes老师的模板观赏度和实用性都是绝佳，You Koutaku老师现成的博文体系让我省去了反复造轮子的过程
 {: .prompt-tip }
 
