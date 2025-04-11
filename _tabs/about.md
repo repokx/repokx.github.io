@@ -77,4 +77,9 @@ $$
 > cotes老师的模板观赏度和实用性都是绝佳，You Koutaku老师现成的博文体系让我省去了反复造轮子的过程
 {: .prompt-tip }
 
-共勉
+**共勉**
+
+---
+往期博文存档（主要是本科期间的一些课程和夏令营纪实）
+
+[Archive](https://repokx.github.io/Archive/)
