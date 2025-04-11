@@ -126,12 +126,12 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: youkoutaku/myrepo # <gh-username>/<repo>
-    repo_id: R_kgDOL6EFNw
+    repo_id: R_kgDOOXZohg
     category: Announcements
-    category_id: DIC_kwDOL6EFN84CfSLz
+    category_id: DIC_kwDOOXZohs4Co_zR
     mapping: pathname # optional, default to 'pathname'
     input_position: Top # optional, default to 'bottom'
-    lang: en # optional, default to the value of `site.lang`
+    lang: zh-CN # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
