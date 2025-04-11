@@ -16,20 +16,20 @@ timezone: Asia/Shanghai
 
 title: Repo # the main title
 
-tagline: Learning control systems and robotics # it will display as the sub-title
+tagline: Chasing Fragments of Time
 
 description: >- # used by seo meta and the atom feed
-  I will share articles about life, technology, and learning.
+  Cross the river by feeling the stone
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://repokx.github.io"
 
 github:
-  username: youkoutaku # change to your github username
+  username: repokx # change to your github username
 
 twitter:
-  username: You_Koutaku # change to your twitter username
+  username: repokx1 # change to your twitter username
 
 social:
   # Change to your full name.
