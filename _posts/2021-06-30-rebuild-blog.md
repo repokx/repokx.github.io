@@ -208,7 +208,7 @@ Jekyll 官方提供了以下链接：
 
 + [GitHub.com #jekyll-theme repos](https://github.com/topics/jekyll-theme)
 + [jamstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/)
-+ [jekyllthemes.org](http://jekyllthemes.org/)
++ [jekyllthemes.org](https://jekyllthemes.org/)
 + [jekyllthemes.io](https://jekyllthemes.io/)
 + [jekyll-themes.com](https://jekyll-themes.com/)
 

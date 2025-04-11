@@ -17,13 +17,13 @@ math: true
 
 最近打算使用混合编程，写个 Python 版本的水蒸汽物性计算的接口程序，搞个在线查询的页面，然而 google 后发现已经有了用于水和水蒸汽物性计算的 Python 模块—— iapws，不得不安利给大家。其实传统的工科领域用 Python 的不多，要是有人用的话希望别重复造轮子。
 
-详见：[iapws 官网](ttps://github.com/jjgomera/iapws/tree/master/docs)
+详见：[iapws 官网](https://github.com/jjgomera/iapws/tree/master/docs)
 
 ---
 
 ## 简介
 
-iapws 是 [IAPWS](http://www.iapws.org/release.html) 标准的 Python 实现，包含以下几个模块：
+iapws 是 [IAPWS](https://www.iapws.org/release.html) 标准的 Python 实现，包含以下几个模块：
 
 - IAPWS-IF97——水蒸汽
 - IAPWS-95——水蒸汽
