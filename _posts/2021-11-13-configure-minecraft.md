@@ -97,7 +97,7 @@ Java 分为 jre (Java Runtime Environment) 与 jdk (Java Development Kit)。事�
 
 ### 2.3 HMCL Installer
 
-**[Hello Minecraft! Launcher](http://hmcl.huangyuhui.net/download/)**
+**[Hello Minecraft! Launcher](https://hmcl.huangyuhui.net/download/)**
 
 安装后运行即可
 
