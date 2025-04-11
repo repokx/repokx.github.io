@@ -2,71 +2,56 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+math: true
 ---
 
-## 👋 Hi, I'm Guang-Ze Yang!
+## Hi, I'm RepoXu, nice to meeet you
 
-Also known as EN: Grayson Young, JP: 楊 広沢 (よう こうたく, You Koutaku), CN: 杨 广泽 (Yang Guang-Ze).
+现在这里还在建设中，我还没想好要写些什么，所以暂时先把几年前写过的内容先搬过来，以后再慢慢整理~
+大概会写一下自己从事的行业，当前的状态，个人的一些经历种种
 
-- I’m currently a master’s student in Mechanical Systems Engineering at Ibaraki University.
-- I also run a blog — [Young’s Notebook](https://youkoutaku.github.io/) — where I share insights on robotics, control theory, programming, and personal growth.
-- My current focus:
-  - Job hunting (Graduating in March 2026)
-  - learning in MPC, nonlinear programming, and distributed control
+开放使用了评论系统，只需要登录github账号即可评论/发表表情
+相比几年前用的disqus，这个新的系统实在是简单易用，省去很多麻烦
 
-## Education
-- 2024.04 – 2026.03: Ibaraki University, M.Eng. in Mechanical Systems Engineering
-- 2020.04 – 2024.03: Ibaraki University, B.Eng. in Mechanical Systems Engineering
+然后一些外链链接到我的其他社交帐号，也许会把之前在nga写的攻略也搬过来？
+这可是项大工程，我们慢慢推进吧~
 
-## Research Interests
-- Motion control & path planning
-- Distributed control of multi-robot systems
-- Optimal & robust control
+## 未来可能会加入的内容
 
-## Publications
-- **G. -Z. Yang** and Z. -J. Yang, "Distributed Robust Time-Varying Formation Control of Multi-Agent Systems Under Disturbances," 2024 SICE Festival with Annual Conference (SICE FES), Kochi City, Japan, 2024, pp. 1000-1005. [[IEEE Xplore]](https://ieeexplore.ieee.org/document/10805135) [[Code]](https://github.com/youkoutaku/DR-TVFC)
+ - 最近正在学习的东西（也许还会有网络作业？ 主要是顺带可以练一练md语法和latex，省的到时候拾不起来）
+ - 游戏攻略
+ - 日常感受、毒鸡汤、碎碎念
+ - 一些有用的教材资源（联动我的网盘）
+大概也就这些？其实博客嘛，大概也就是记录一下自己的日常。我是这么理解的，跟日记一样
+~~正经人谁写日记？~~
 
----
+## 碎碎念
 
-## [Coding Activity](https://wakatime.com/@YouKoutaku) (SINCE OCT 14 2024)
+毕业后几年发生的事情，明明是刚刚才发生过的，因为缺乏记录，没有文字，甚至没有照片
+这几年就像直接从我的大脑里抽走了一样，现在想要回忆简直像要我的命
+那不如还是记录在这里好了，反正在github也不会被百度搜索到，基本能看到这篇内容的人，要么是在谷歌搜索什么，要么是认识我的人通过链接摸过来，那就完全没啥了
 
-<a href="https://wakatime.com/@YouKoutaku">
-    <img align="Youkoutaku's WakaTime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=Youkoutaku&theme=radical&hide=Markdown,other,Text&layout=compact&show_icons=true" alt="Youkoutaku's WakaTime stats"/>
-</a>
+最近在重新学量子力学，当时修读这门课程的时候还在疫情，家里学的实在不实在。
+北大田光善老师的录播课，https://www.bilibili.com/video/BV1yb411G7bo/
+工科生受到暴击伤害，听了半天发现原来理科的QM还要默认你学过热统，我本科整个学校就只有应用物理系在学热统
+我一个核工孩子，读研却选了个材料相关的。说起来要听QM也是因为这个，本身我没有一点材料类的基础，我肯定得去补固体物理
+固体物理的前导显然就是QM了
+这下确实感受到理工的差异了，理科要求的这个数理基础确实是工科孩子想象不到的，难怪我们导师更偏向招凝聚态的学生
+现学现卖来个公式：Planck猜想的黑体辐射能量密度由下式给出
+$$
+E_{\nu}d\nu = \frac{C_1\nu^3}{exp(\frac{C_2\nu}{T})}d\nu
+$$
+当 $\nu \to \infty$ 时，上式变为
+$$
+\begin{align}
+E_{\nu} d\nu 
+&= \left( \frac{k C_2 \nu}{\exp\left(\frac{k C_2 \nu}{kT}\right) - 1} \cdot \frac{C_1}{C_2 k} \right) \nu^2 d\nu \\
+&\cong \bar{\epsilon_{\nu}} \cdot N(\nu, \nu + \delta \nu)
+\end{align}
+$$
 
-## ⭐ Skills
+> 感谢这个博客模板的作者 [cotes](https://github.com/cotes2020)，和fork源的作者 [You Koutaku](https://github.com/youkoutaku)
+> cotes老师的模板观赏度和实用性都是绝佳，You Koutaku老师现成的博文体系让我省去了反复造轮子的过程
+{: .prompt-tip }
 
-💻 [Programming Language](https://wakatime.com/@YouKoutaku)
-
-| MATLAB | Python | C/C++ | HTML5&CSS3 | JavaScript | Java  |
-| :----: | :----: | :---: | :--------: | :--------: | :---: |
-| ★★★★★  | ★★★★★  | ★★★★ |    ★★★★    |    ★★★     |  ★★   |
-
-## 🛠️ Tools
-
-| Simulink |  Git  | ROS1&2 | Docker | SolidWorks | Arduino | LaTex | Markdown |
-| :------: | :---: | :----: | :----: | :--------: | :-----: | :---: | :------: |
-|  ★★★★★   | ★★★★  |  ★★★★  |  ★★★   |   ★★★★★    |  ★★★★★  | ★★★★★ |  ★★★★★   |
-
----
-
-## ❤️ Favorite
-- 😄 Hobby:
-  - 💪 Training or running 2~3 times a week
-  - 🏀 Basketball once a week
-  - 📚 Reading (Biography, History, Philosophy, Time Management ...)
-  - 🎮 Video games(Zelda, Fire Emblem, Monster Hunter, FF7, P5, ...)
-  - 🎧 Music (J-pop, R&B, ...)
-
-## More about me
-- 📱 [My Device](https://youkoutaku.notion.site/bd8f65544ac242c38f88871f73af8c1e?v=a39853e6d8b9473c8156a0df89248054)
-- 🎬 [My Video](https://youkoutaku.notion.site/Video-7bd889568add4d6fb952fe4973c715da?pvs=4)
-- 🎵 [My Music](https://youkoutaku.notion.site/My-Music-d21e63fdf152499283410c2d78ccd674)
-- 🎮 [My Game](https://youkoutaku.notion.site/Game-85453a6f8846423e9964d52239f7064d?pvs=4)
-
----
-## 📬 Contact
-- [Linkedin](https://www.linkedin.com/in/youkoutaku)
-- [知乎](https://www.zhihu.com/people/a-a-47-74-28)
-
----
+共勉
