@@ -1,66 +1,31 @@
-[![Waka time](https://wakatime.com/badge/user/09b9ec51-4790-4f52-a7f3-ae35dcbfc6dc/project/2cc51c41-66b5-4804-b2a4-73b94653d498.svg)](https://wakatime.com/badge/user/09b9ec51-4790-4f52-a7f3-ae35dcbfc6dc/project/2cc51c41-66b5-4804-b2a4-73b94653d498)
+# GitHub Pages Blog
 
-## Workspace Notes
+Welcome to the repository for my GitHub Pages blog! This project hosts my personal blog, built using GitHub Pages.
 
-- GitHub: [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
-- [Getting Started](https://chirpy.cotes.page/posts/getting-started/)
-- [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
-- [Text and Typography](https://chirpy.cotes.page/posts/text-and-typography/#fnref:footnote)
-- [My Note](https://youkoutaku.github.io/posts/Writing/)
-- [Upgrade Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide)
+## About
 
-### Local Building
-Running
-```cmd
-bundle exec jekyll s
-```
+This blog is a platform where I share my thoughts, projects, and tutorials on various topics, including programming, technology, and more.
 
-Building
-```cmd
-bundle exec jekyll b
-```
+## How to View
 
-### Update
-[Upgrading](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide#upgrading-from-starter)
+You can visit the blog at: [https://yourusername.github.io/](https://yourusername.github.io/)  
+Replace `yourusername` with your GitHub username.
 
-The operations mentioned in this section only need to be performed once after cloning your repository locally.
-Adding Upstream
+## Repository Structure
 
-```
-git remote add chirpy https://github.com/cotes2020/chirpy-starter.git
-```
+- `index.html`: The main entry point of the blog.
+- `_posts/`: Contains blog posts written in Markdown.
+- `assets/`: Stores images, CSS, and other assets.
 
-Verify the remote was added successfully:
+## Contributing
 
-```
-git remote -v
-```
+Feel free to open issues or submit pull requests if you have suggestions or improvements.
 
-The output should include:
+## License
 
-```
-chirpy  https://github.com/cotes2020/chirpy-starter.git (fetch)
-chirpy  https://github.com/cotes2020/chirpy-starter.git (push)
-```
+This project is licensed under the [MIT License](LICENSE).
 
-### Preview
+## Special Thanks
 
-```
-image: https://image.jpg
-```
-
-### Images
-
-```markdown
-![](src/image.png)
-```
-
-### Math
-
-[MathJax](https://www.mathjax.org/)
-
-```markdown
-Remark error:
-$x_{1_2}$
-$x^*$ → $x^\ast$
-```
+1. 本仓库 fork 源：[You Koutaku 的个人博客](https://youkoutaku.github.io/)
+2. chirpy theme 模板作者 [Cotes Chung](https://github.com/cotes2020)

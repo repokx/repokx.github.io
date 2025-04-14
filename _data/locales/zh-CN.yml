@@ -10,13 +10,13 @@ layout:
 # 侧边栏标签页
 tabs:
   # 格式: <无尾缀文件名>: <值>
-  home: 首页
-  subdomain: 子域
-  categories: 分类
-  tags: 标签
-  archives: 归档
-  about: 关于
-  what: 啥？
+  home: 首 页
+  subdomain: 子 域
+  categories: 分 类
+  tags: 标 签
+  archives: 归 档
+  about: 关 于
+  external: 外 链
 
 # 搜索栏和搜索结果显示的文字
 search:
