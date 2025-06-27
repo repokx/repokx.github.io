@@ -16,10 +16,10 @@ timezone: Asia/Shanghai
 
 title: RepoXu Blog # 网站主标题
 
-tagline: 大傻春你想干什么 # 网站副标题
+tagline: Undying Passion is all I've left # 网站副标题
 
 description: >- # 由 seo meta 和 atom feed 使用
-  摸着石头过河，结果摸了一手屎
+  摸着石头过河，结果摸了一手X
 
 # 填入你的网站的协议和域名.
 # 例如，'https://username.github.io'，注意不要以 '/' 结尾。
