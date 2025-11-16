@@ -4,7 +4,7 @@ icon: fas fa-forward
 order: 5
 ---
 
-| Platform | Linkto |
+| Platform | Link to |
 |------|------|
 | CSDN | [![CSDN](https://img.shields.io/badge/CSDN-Repo_Kristx-FF4C00?logo=csdn)](https://blog.csdn.net/weixin_44324447) |
 | Github | [![GitHub](https://img.shields.io/badge/GitHub-repokx-blue?logo=github)](https://github.com/repokx) |
