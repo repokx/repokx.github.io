@@ -3,8 +3,8 @@ title: UCAS DFT Homework 1
 # description: >-
 author: repo
 date: 2025-11-05 23:40:00 +0800
-categories: [DFT]
-tags: [DFT, BO, HK]
+categories: [Computational Physics, DFT]
+tags: [DFT, Hartree-Fork, TFD, Kohn-Sham, Exchange-Corrlation Functional, PW92]
 # math: true
 # mermaid: true
 # pin: false 

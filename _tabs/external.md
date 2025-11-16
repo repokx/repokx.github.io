@@ -4,6 +4,14 @@ icon: fas fa-forward
 order: 5
 ---
 
+# 友情链接喵
+
+| Destination | Link to | Description |
+|------|------|------|
+| Scientia | [![Scientia Blog](https://img.shields.io/badge/Scientia-Blog-blue)](https://www.husq.online/) | 朋友的链接~ |
+
+# 我的链接喵
+
 | Platform | Link to |
 |------|------|
 | CSDN | [![CSDN](https://img.shields.io/badge/CSDN-Repo_Kristx-FF4C00?logo=csdn)](https://blog.csdn.net/weixin_44324447) |
