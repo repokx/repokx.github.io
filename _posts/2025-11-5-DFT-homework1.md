@@ -8,10 +8,10 @@ tags: [DFT, Hartree-Fork, TFD, Kohn-Sham, Exchange-Corrlation Functional, PW92]
 # math: true
 # mermaid: true
 # pin: false 
-# img_path: /src/
-# image:
-#     path: 
-#     alt: 
+# img_path: 
+image:
+    path: /assets/img/Dirac-Cylinder.png
+    alt: 晶体的二维能带结构示意图，展示两个能带在布里渊区交汇处形成狄拉克锥的线性色散关系。
 ---
 
 ## UCAS DFT Homework 1
