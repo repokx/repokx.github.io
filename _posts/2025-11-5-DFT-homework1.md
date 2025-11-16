@@ -20,7 +20,9 @@ image:
 
 正如标题所见，这是中国科学院大学2025年秋季学期的 `Density Functional Theory` 课程的第一次作业。
 
-说实话，我认为课程讲授的不是特别精彩，但是来自 `iop` 的这位老师对于几乎每一个公式都做了相当详尽的推导，包括但不限于：`Born-Oppenheimer Approximation` or commonly used `Adiabatic Approximation`、`Hartree/Hartree-Fork Approximation`、`Thomas-Fermi-Dirac Theory`、`Hohenberg-Kohn Theorems`、`Kohn-Sham Equations`、`Local-Density Approximation`、`Pseudo-Potentials`。周五上午早八，一路在黑板上推公式，一直推到11点。每次上他的课我都觉得是一种享受，一种看着结果一步步算出来的安心感。虽然每次上课都要写超级多的公式，但是说实话，我完全不觉得累，虽然是这么一个对于工科的我硬到不能再硬的课，但他的这种讲授方式确实可以在我的记忆里停留一段时间，也许。
+说实话，我认为课程讲授的不是特别精彩，但是来自 `iop` 的这位老师对于几乎每一个公式都做了相当详尽的推导，包括但不限于：`Born-Oppenheimer Approximation` or commonly used `Adiabatic Approximation`、`Hartree/Hartree-Fork Approximation`、`Thomas-Fermi-Dirac Theory`、`Hohenberg-Kohn Theorems`、`Kohn-Sham Equations`、`Local-Density Approximation`、`Pseudo-Potentials`。
+
+周五上午早八，一路在黑板上推公式，一直推到11点。每次上他的课我都觉得是一种享受，一种看着结果一步步算出来的安心感。虽然每次上课都要写超级多的公式，但是说实话，我完全不觉得累，虽然是这么一个对于工科的我硬到不能再硬的课，但他的这种讲授方式确实可以在我的记忆里停留一段时间，也许。
 
 本文的写作，一定程度上是作为 `latex` 的练习使用的，不枉我敲这么多公式，觉得发到博客上来也不错，供君参考。
 
