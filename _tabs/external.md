@@ -14,6 +14,7 @@ order: 5
 
 | Platform | Link to |
 |------|------|
+| Dairy | [![Dairy](https://img.shields.io/badge/wikibooks-dairy-lightgreen](https://repoxu.top/dairy/) |
 <!-- 
 | CSDN | [![CSDN](https://img.shields.io/badge/CSDN-Repo_Kristx-FF4C00?logo=csdn)](https://blog.csdn.net/weixin_44324447) |
 | Github | [![GitHub](https://img.shields.io/badge/GitHub-repokx-blue?logo=github)](https://github.com/repokx) |
@@ -27,4 +28,3 @@ order: 5
 | 往期博文存档 | [![Archive](https://img.shields.io/badge/Archive-博客存档-blue?logo=github)](https://repokx.github.io/Archive/) |
 | 知乎 | [![知乎](https://img.shields.io/badge/知乎-暮色遐想-0084FF?logo=zhihu)](https://www.zhihu.com/people/mu-se-xia-xiang) |
 -->
-| Dairy | [![Dairy](https://img.shields.io/badge/%F0%9F%93%94%20dairy-lightgreen](https://repoxu.top/dairy/) |
