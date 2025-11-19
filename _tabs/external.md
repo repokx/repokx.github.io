@@ -14,7 +14,7 @@ order: 5
 
 | Platform | Link to |
 |------|------|
-| Dairy | [![Dairy](https://img.shields.io/badge/github-dairy-lightgreen](https://repoxu.top/dairy/) |
+| Dairy | [![Dairy]| Dairy | [![Dairy](https://img.shields.io/badge/wikibooks-dairy-lightgreen](https://repoxu.top/dairy/) |)](https://repoxu.top/dairy/) |
 <!-- 
 | CSDN | [![CSDN](https://img.shields.io/badge/CSDN-Repo_Kristx-FF4C00?logo=csdn)](https://blog.csdn.net/weixin_44324447) |
 | Github | [![GitHub](https://img.shields.io/badge/GitHub-repokx-blue?logo=github)](https://github.com/repokx) |
