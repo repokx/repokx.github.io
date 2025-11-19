@@ -25,7 +25,4 @@ order: 5
 | 电子邮箱 | [![Email](https://img.shields.io/badge/Email-repoexr%40163.com-blue?logo=minutemailer&logoColor=white)](mailto:repoexr@163.com) |
 | 往期博文存档 | [![Archive](https://img.shields.io/badge/Archive-博客存档-blue?logo=github)](https://repokx.github.io/Archive/) |
 | 知乎 | [![知乎](https://img.shields.io/badge/知乎-暮色遐想-0084FF?logo=zhihu)](https://www.zhihu.com/people/mu-se-xia-xiang) |
-
-
-
-
+| Dairy | [![Dairy](https://img.shields.io/badge/Dairy-Dairy-blue?logo=github)](https://repokx.github.io/dairy/) |
