@@ -8,14 +8,14 @@ order: 5
 
 | Destination | Link to | Description |
 |------|------|------|
-| Scientia | [![Scientia Blog](https://img.shields.io/badge/Scientia-Blog-blue)](https://www.husq.online/) | 朋友的链接~ |
+| Scientia | [![Scientia Blog](https://img.shields.io/badge/Scientia-Blog-blue?logo=cplusplus)](https://www.husq.online/) | 我愿称之为神 |
 
 # 我的链接喵
 
-| Platform | Link to |
-|------|------|
-| Dairy | [![Dairy](https://img.shields.io/badge/dairy-Routine-lightgreen?logo=bookstack)](https://repoxu.top/dairy/) |
-| 往期存档 | [![Archive](https://img.shields.io/badge/Archive-往期存档-skyblue?logo=github)](https://repoxu.top/Archive) |
+| Platform | Link to | Description |
+|------|------|------|
+| Dairy | [![Dairy](https://img.shields.io/badge/dairy-Routine-lightgreen?logo=bookstack)](https://repoxu.top/dairy/) | 谈心、吐槽、emo用 |
+| 往期存档 | [![Archive](https://img.shields.io/badge/Archive-往期存档-skyblue?logo=github)](https://repoxu.top/Archive) | 陈年老博文、本科时期一些课程的作业 |
 
 <!-- 
 | CSDN | [![CSDN](https://img.shields.io/badge/CSDN-Repo_Kristx-FF4C00?logo=csdn)](https://blog.csdn.net/weixin_44324447) |
