@@ -14,7 +14,8 @@ order: 5
 
 | Platform | Link to |
 |------|------|
-| Dairy | [![Dairy](https://img.shields.io/badge/github-dairy-lightgreen)](https://repoxu.top/dairy/) |
+| Dairy | [![Dairy](https://img.shields.io/badge/dairy-Routine-lightgreen?logo=bookstack)](https://repoxu.top/dairy/) |
+| 往期存档 | [![Archive](https://img.shields.io/badge/Archive-往期存档-skyblue?logo=github)](https://repoxu.top/Archive) |
 
 <!-- 
 | CSDN | [![CSDN](https://img.shields.io/badge/CSDN-Repo_Kristx-FF4C00?logo=csdn)](https://blog.csdn.net/weixin_44324447) |
