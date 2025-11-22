@@ -1,11 +1,5 @@
 # Repo's Blog
 
-复活了！
+how to define a real blog, that's a good question.
 
-我会更新的！！！
-
-以及，比着葫芦画饼，所有来到这个网站的朋友们，自动获得一张：
-
-_《 Do Whatever the Fuck You Wanna Do 》_ LICENSE
-
-嘿嘿
+i may try my best to perform this, make it a useful place.
