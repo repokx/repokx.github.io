@@ -133,7 +133,8 @@ social sciences, natural sciences, or engineering and computer sciences.
 \end{enumerate}
 
 \textbf{\revisionC{Question 2.2}}
-Please list some Academic Misconduct/Academic Dishonesty.(you can answer this part in Chinese and insert a .jpg file of your answer.)
+Please list some Academic Misconduct/Academic Dishonesty.(you can answer this part 
+in Chinese and insert a .jpg file of your answer.)
 \vskip 0.5 cm
 \textbf{ANSWER:}
 
