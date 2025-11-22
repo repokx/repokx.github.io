@@ -84,7 +84,7 @@ tags: [DFT, TFD, Pseudo Potential, Norm-conserving pseudopotential(NCPP), Plane-
 \begin{document}
 
 \title{《密度泛函理论及应用》习题2}
-\author{徐梓浩\quad 202528001736009}
+\author{unknown}
 \date{\today}
 \maketitle
 
