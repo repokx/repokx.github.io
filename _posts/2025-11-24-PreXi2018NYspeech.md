@@ -1,8 +1,7 @@
 ---
-title: Full text of President Xi's New Year address of 2018
-description: >-
-    Full text of President Xi's New Year address of 2018
-author: CGTN, repo
+title: President Xi's New Year address of 2018
+# description: >- 
+author: CGTN
 date: 2025-11-24 23:33:00 +0800
 categories: [English, Speech]
 tags: [President Xi, New Year Speech]
@@ -14,7 +13,8 @@ image:
     path: /assets/img/presidentxi2018nyspeech.png
     alt: Xi Jinping, General Secretary of Central Committee of the Communist Party of China and President of People’s Republic of China, delivers a New Year address to extend greetings to all Chinese and best wishes to friends all over the world in Beijing on December 31, 2017 (XINHUA)
 ---
-
+> Original Article Name: `Full text of President Xi's New Year address`
+>
 > Source: [https://news.cgtn.com/news/3063444d35637a6333566d54/index.html](https://news.cgtn.com/news/3063444d35637a6333566d54/index.html)
 >
 > Publishing Time: 21:10 Dec.31, 2017
