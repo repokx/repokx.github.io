@@ -5,20 +5,20 @@ description: >-
 author: CGTN, repo
 date: 2025-11-24 23:33:00 +0800
 categories: [English, Speech]
-tags: [President Xi, New Year Speech, 2018]
+tags: [President Xi, New Year Speech]
 # math: true
 # mermaid: true
 # pin: false 
 # img_path: /src/
 image:
     path: /assets/img/presidentxi2018nyspeech.png
-    alt: Xi Jinping, General Secretary of Central Committee of the Communist Party of China and President of People’s Republic of China, delivers a New Year address to extend greetings to all Chinese and best wishes to friends all over the world in Beijing on December 31, 2017 (XINHUA). https://www.idcpc.gov.cn/english2023/dzwk/zgkx/202307/P020230717028549803774.pdf
+    alt: Xi Jinping, General Secretary of Central Committee of the Communist Party of China and President of People’s Republic of China, delivers a New Year address to extend greetings to all Chinese and best wishes to friends all over the world in Beijing on December 31, 2017 (XINHUA)
 ---
 
 > Source: [https://news.cgtn.com/news/3063444d35637a6333566d54/index.html](https://news.cgtn.com/news/3063444d35637a6333566d54/index.html)
 >
 > Publishing Time: 21:10 Dec.31, 2017
-{:. prompt-tip}
+{: .prompt-tip }
 
 Comrades, friends, ladies and gentlemen,
 
@@ -58,7 +58,7 @@ Their stories touched me deeply. The people have made sacrifices for the good of
 
 Comrades, friends, ladies and gentlemen,
 
-2018 is the start of the comprehensive implementation of the spirit of the 19th CPC National Congress. The Congress drew up the beautiful blueprint of our development for the next three decades. A tall tower needs a solid foundation. To translate the blueprint into reality, we have to **`avoid the distractions of unsubstantial ideas and superficial fame`**, take one step at a time, and approach our work with a firm footing.
+2018 is the start of the comprehensive implementation of the spirit of the 19th CPC National Congress. The Congress drew up the beautiful blueprint of our development for the next three decades. A tall tower needs a solid foundation. To translate the blueprint into reality, we have to `avoid the distractions of unsubstantial ideas and superficial fame`, take one step at a time, and approach our work with a firm footing.
 
 2018 marks the 40th anniversary of our Reform and Opening Up, which has been the only path to the development and progress of contemporary China and the only path to the realization of the Chinese Dream. At the significant juncture of the 40th anniversary, we should surmount all obstacles to carry the reform further to its ultimate triumph.
 
