@@ -10,11 +10,11 @@ order: 5
 |------|------|------|
 | Scientia | [![Scientia Blog](https://img.shields.io/badge/Scientia-Blog-blue?logo=cplusplus)](https://www.husq.online/) | 我愿称之为神 |
 
-# 我的链接喵
+<!-- # 我的链接喵
 
 | Platform | Link to |
 |-----|-----|
-| Dairy | [![Dairy](https://img.shields.io/badge/Dairy-Dummy-lightgreen?logo=gitbook)](https://repoxu.top/dairy/) |
+| Dairy | [![Dairy](https://img.shields.io/badge/Dairy-Dummy-lightgreen?logo=gitbook)](https://repoxu.top/dairy/) | -->
 
 
 <!-- 以下的内容已经被隐藏，当需要展示时，我会展示的
