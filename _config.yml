@@ -217,8 +217,8 @@ exclude:
   - "package*.json"
   # those files were hidden when published
   # comment them if you want to show them
-  - /_tabs/archives.md  # archives on the homepage
-  - /_tabs/tags.md      # tags on the homepage
+  # - /_tabs/archives.md  # archives on the homepage
+  # - /_tabs/tags.md      # tags on the homepage
 
 jekyll-archives:
   enabled: [categories, tags]
