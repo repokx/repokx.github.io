@@ -14,9 +14,10 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings > https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Repo's Blog # the main title
+title: Repository # the main title
 
-tagline: Avoid the distractions of unsubstaintial ideas and superficial fame # it will display as the subtitle
+tagline: endless learning
+# Avoid the distractions of unsubstaintial ideas and superficial fame # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Fluctuat nec mergitur.
