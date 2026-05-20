@@ -5,18 +5,19 @@ order: 4
 math: true
 ---
 
-hi，朋友！🎉
+Hello there, I'm Repo, currently a Graduate Student in `Nuclear Energy Science and Technology` **(NEST)** at `University of Chinese Academy of Sciences` **(UCAS)**.
 
-能来到这里，说明你已经被我成功安利到了
+This blog is focuing on a recording of my `Learning Journey`, my `Research Career`, and some `Tech Tricks` about all aspects. 
 
-虽然目前这里的内容真的还很少，还希望不要嫌弃，我会努力让他变得丰富多彩的
+Also there will be some knowledge sharing of `Nuclear Science`, `Material Science`. Some skills about Lecture Notes, Journal Reading, Computational Methods, LaTeX Writing, Git and Personal Website Building, etc. 
 
-目前打算把这段时间写的东西，或者课程笔记呀，作业呀什么的，我已经整理成md文档的，都尽量发到这里
+I will start some of my research projects in the future **not so far**, so I believe there will be tons of things to share about that.
 
-以此希望能给大家带来一点帮助~
+Oh, and some of my graduate life, self-control, and Thoughts about learing. These thought are really precious for me, as I could use these to be a better me.
 
-嘿嘿
+Hope this blog can not only be a Knowledge Repository, but also a routine about my growth.
 
-btw
+If some of the contents can be helpful for you, then it's really a pleasure for me. <u>Any suggestions, comments, discussions, and even criticisms are all welcome.</u> my email is [repoexr@163.com](mailto:repoexr@163.com)
 
-叫我 **小R** 就好啦
+**RepoXu** writing beside Lake YanQi
+2026/5/20

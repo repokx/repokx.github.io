@@ -4,21 +4,17 @@ icon: fas fa-forward
 order: 5
 ---
 
-# 友情链接喵
+# about some External links that may be useful?
 
 | Destination | Link to | Description |
 |------|------|------|
-| Scientia | [![Scientia Blog](https://img.shields.io/badge/Scientia-Blog-blue?logo=cplusplus)](https://www.husq.online/) | 我愿称之为神 |
+| Scientia | [![Scientia Blog](https://img.shields.io/badge/Scientia-Blog-blue?logo=cplusplus)](https://www.husq.online/) | Husky's Blog |
 
-<!-- # 我的链接喵
+# My Links
 
 | Platform | Link to |
 |-----|-----|
-| Dairy | [![Dairy](https://img.shields.io/badge/Dairy-Dummy-lightgreen?logo=gitbook)](https://repoxu.top/dairy/) | -->
-
-
-<!-- 以下的内容已经被隐藏，当需要展示时，我会展示的
-     另外需要注意一个问题：上文的表格均为 3-column，但下文的表格均为 2-column，使用时注意加一列
+| Dairy | [![Dairy](https://img.shields.io/badge/Dairy-Dummy-lightgreen?logo=gitbook)](https://repoxu.top/dairy/) |
 | CSDN      | [![CSDN](https://img.shields.io/badge/CSDN-Repo_Kristx-FF4C00?logo=csdn)](https://blog.csdn.net/weixin_44324447) |
 | Github    | [![GitHub](https://img.shields.io/badge/GitHub-repokx-blue?logo=github)](https://github.com/repokx) |
 | Facebook  | [![Facebook](https://img.shields.io/badge/Facebook-repokx-1877F2?logo=facebook)](https://www.facebook.com/repokx) |
@@ -31,4 +27,3 @@ order: 5
 | 知乎      | [![知乎](https://img.shields.io/badge/知乎-暮色遐想-0084FF?logo=zhihu)](https://www.zhihu.com/people/mu-se-xia-xiang) |
 | Dairy     | [![Dairy](https://img.shields.io/badge/dairy-Routine-lightgreen?logo=bookstack)](https://repoxu.top/dairy/) |
 | 往期存档   | [![Archive](https://img.shields.io/badge/Archive-往期存档-skyblue?logo=github)](https://repoxu.top/Archive) |
--->
