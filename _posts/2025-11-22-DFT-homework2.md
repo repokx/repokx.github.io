@@ -4,7 +4,7 @@ title: UCAS DFT Homework 2 (建设中)
 author: repo
 date: 2025-11-22 17:54:00 +0800
 categories: [Computational Physics, DFT]
-tags: [DFT, TFD, Pseudo Potential, Norm-conserving pseudopotential(NCPP), Plane-wave Kohn-Sham Eq., Monkhorst-Pack Sampling, Hellmann-Feynman Force, Pulay Force, Car-Parrinello Molecular Dynamics, Atomic Orbtial Basis, GTO, Neutral Atomic Potential]
+tags: [DFT]
 # math: true
 # mermaid: true
 # pin: false 

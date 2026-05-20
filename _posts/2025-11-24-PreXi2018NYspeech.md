@@ -4,7 +4,7 @@ title: President Xi's New Year address of 2018
 author: CGTN
 date: 2025-11-24 23:33:00 +0800
 categories: [English, Speech]
-tags: [President Xi, New Year Speech]
+tags: [Noteable Sayings]
 # math: true
 # mermaid: true
 # pin: false 

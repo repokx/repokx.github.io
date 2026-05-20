@@ -4,7 +4,7 @@ title: 申请域名（使用阿里云）
 author: repo
 date: 2025-11-18 22:00:00 +0800
 categories: [IT Issue, Blogging]
-tags: [Domain, Alibaba Cloud, DNS]
+tags: [Website Building]
 # math: true
 # mermaid: true
 # pin: false 
