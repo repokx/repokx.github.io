@@ -22,7 +22,7 @@ tags: [DFT]
 {: .prompt-warning }
 
 此外，作业中包含一张石墨烯二维六角晶格WS原胞MP3x3抽样的k点图，可以通过以下链接下载。使用GeoGebra制作。
-- [Graph of 3x3 MP sampling in the WS cell of graphene](https://www.geogebra.org/graphing/kv6h5v9u)
+- [Graph of 3x3 MP sampling in the WS cell of graphene](https://www.geogebra.org/m/mphq7szy)
 
 流程图取自课件，此处不附。
 
