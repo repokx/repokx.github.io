@@ -235,15 +235,11 @@ Kohn-Sham equation:
              = -\left(\frac34\right)^4\left(\frac{3}{\pi^2}\right)^{\frac13}
              = -0.2127
     \end{align*}
-        \[
+    \[
         \rho\varepsilon_c(\rho)
-        = \rho(-2A)(1+\alpha_1 r_s)
-          \ln\left(
-          1+\frac{1}{2A(\beta_1 r_s^{\frac12}
-          + \beta_2 r_s
-          + \beta_3 r_s^{\frac32}
-          + \beta_4 r_s^2)}
-          \right)
+        	= \rho(-2A)(1+\alpha_1 r_s)
+        		\ln\left(1+\frac{1}{2A(\beta_1 r_s^{\frac12} + \beta_2 r_s + \beta_3 r_s^{\frac32}
+				+ \beta_4 r_s^2)}\right)
     \]
     \[
         r_s = \left(\frac{3}{4\pi\rho}\right)^{1/3},
@@ -267,55 +263,43 @@ Kohn-Sham equation:
 
     \begin{align*}
         E_{cl}
-        &= \frac12\iint \frac{\rho(r)\rho(r')}{|r-r'|}drdr'
-         = \frac12\int dr\rho(r)\int \frac{\rho(r')}{|r-r'|}dr' \\
-        &= \frac12\int dr\rho(r)U(r)
+        	&= \frac12\iint \frac{\rho(r)\rho(r')}{|r-r'|}drdr'
+        	 = \frac12\int dr\rho(r)\int \frac{\rho(r')}{|r-r'|}dr' \\
+        	&= \frac12\int dr\rho(r)U(r)
     \end{align*}
 
     \begin{align*}
         U(r)
-        &= \int \frac{\rho(r')}{|r-r'|}dr' \\
-        &= \frac1\pi\int
-        \frac{e^{-2r'}}{\sqrt{r^2+r'^2-2rr'\cos\theta'}}
-        r'^2\sin\theta' dr'd\theta'd\phi' \\
-        &= 2\int dr' r'^2e^{-2r'}
-        \int \frac{\sin\theta' d\theta'}
-        {\sqrt{r^2+r'^2-2rr'\cos\theta'}} \\
-        &= 2\int dr' r'^2e^{-2r'}
-        \frac{1}{2rr'}
-        \int
-        \frac{d(r^2+r'^2-2rr'\cos\theta')}
-        {\sqrt{r^2+r'^2-2rr'\cos\theta'}} \\
-        &= \int dr' r'^2e^{-2r'}
-        \frac{2}{rr'}
-        \sqrt{r^2+r'^2-2rr'\cos\theta'}
-        \bigg|_0^\pi \\
-        &= \int dr' r'^2e^{-2r'}
-        \frac{2}{rr'}(r+r'-|r-r'|)
+			&= \int \frac{\rho(r')}{|r-r'|}dr' \\
+			&= \frac1\pi\int\frac{e^{-2r'}}{\sqrt{r^2+r'^2-2rr'\cos\theta'}}
+				r'^2\sin\theta' dr'd\theta'd\phi' \\
+			&= 2\int dr' r'^2e^{-2r'}\int \frac{\sin\theta' d\theta'}
+				{\sqrt{r^2+r'^2-2rr'\cos\theta'}} \\
+			&= 2\int dr' r'^2e^{-2r'}\frac{1}{2rr'}
+				\int\frac{d(r^2+r'^2-2rr'\cos\theta')}{\sqrt{r^2+r'^2-2rr'\cos\theta'}} \\
+			&= \int dr' r'^2e^{-2r'}\frac{2}{rr'}\sqrt{r^2+r'^2-2rr'\cos\theta'}\bigg|_0^\pi \\
+			&= \int dr' r'^2e^{-2r'}\frac{2}{rr'}(r+r'-|r-r'|)
     \end{align*}
 
     \[
-        U(r)
-        =
-        \begin{cases}
-            \dfrac4r\displaystyle\int dr' r'^2e^{-2r'}, & r>r' \\[1.2em]
-            4\displaystyle\int dr' r'e^{-2r'}, & r\leq r'
-        \end{cases}
-        =
-        \frac1r-\frac1r e^{-2r}-e^{-2r}
+        U(r) =
+        	\begin{cases}
+            	\dfrac4r\displaystyle\int dr' r'^2e^{-2r'}, & r>r' \\[1.2em]
+            	4\displaystyle\int dr' r'e^{-2r'}, & r\leq r'
+        	\end{cases}
+        	=
+        	\frac1r-\frac1r e^{-2r}-e^{-2r}
     \]
 
     \begin{align*}
         E_{cl}
-        &= \frac12\iint \frac{\rho(r)\rho(r')}{|r-r'|}drdr'
-         = \frac12\int dr\rho(r)U(r) \\
-        &= \frac12\int dr\rho(r)
-        \left(\frac1r-\frac1r e^{-2r}-e^{-2r}\right) \\
-        &= \frac{1}{2\pi}\int e^{-2r}
-        \left(\frac1r-\frac1r e^{-2r}-e^{-2r}\right)
-        r^2dr\sin\theta d\theta d\phi \\
-        &= 2\int (re^{-2r}-re^{-4r}-r^2e^{-4r})dr \\
-        &= \frac{5}{16}
+			&= \frac12\iint \frac{\rho(r)\rho(r')}{|r-r'|}drdr'
+			 = \frac12\int dr\rho(r)U(r) \\
+			&= \frac12\int dr\rho(r)\left(\frac1r-\frac1r e^{-2r}-e^{-2r}\right) \\
+			&= \frac{1}{2\pi}\int e^{-2r}\left(\frac1r-\frac1r e^{-2r}-e^{-2r}\right)
+				r^2dr\sin\theta d\theta d\phi \\
+			&= 2\int (re^{-2r}-re^{-4r}-r^2e^{-4r})dr \\
+			&= \frac{5}{16}
     \end{align*}
 
 
