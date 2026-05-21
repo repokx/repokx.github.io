@@ -94,14 +94,17 @@ image:
 \begin{quote}
 	In 1929 Paul Dirac made a famous announcement: The general theory of quantum mechanics is now almost complete.... The underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known.... It therefore becomes desirable that approximate practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation.'
 \end{quote}
+
 1929年，保罗·狄拉克发表了一篇著名的声明：“量子力学的一般理论现在几乎已经完成……物理学的大部分和整个化学所需的基本物理定律因此被完全了解……因此，有必要开发近似的实用方法来应用量子力学，这些方法可以在不进行过多计算的情况下解释复杂原子系统的主要特征。”
 \begin{quote}
 	It is important to appreciate the revolutionary nature of that question. In the Schrödinger equation, the ionic potential $v_{ext}(r)$ is the only term that distinguishes one alloy from another. That potential determines the wavefunction, which in turn determines the electron density and the total energy. The energy is thus a functional of $v_{ext}(r)$. Kohn contemplated a radical inversion of that thinking. Is it possible that the total energy depends only on the electron density $n(r)$? Years earlier Llewellyn Thomas and Enrico Fermi had proposed approximate theories of the total energy where that was the case, but no one had seriously suggested that the exact total energy of any many-electron system could be a functional of the electron density alone. If it were true, knowledge of $n(r)$ was sufficient to determine the external potential, the many-particle wavefunction, and all the ground-state properties—even the Green functions of many-body theory! That was a very deep question. Kohn realized he wasn’t doing alloy theory anymore.
 \end{quote}
+
 理解这个问题的革命性本质是很重要的。在薛定谔方程中，离子势$v_{ext}(r)$是区分一种合金与另一种合金的唯一项。该势决定了波函数，而波函数又决定了电子密度和总能量。因此，总能量是$v_{ext}(r)$的泛函。科恩考虑了一种彻底颠倒这种思维方式的可能性。总能量是否仅依赖于电子密度$n(r)$？多年前，Llewellyn Thomas和Enrico Fermi提出了总能量的近似理论，但没有人认真建议任何多电子系统的精确总能量可以仅仅是电子密度的泛函。如果这是真的，那么对$n(r)$的了解就足以确定外部势、多粒子波函数以及所有基态性质——甚至是多体理论的格林函数！这是一个非常深刻的问题。科恩意识到他不再是在做合金理论了。
 \begin{quote}
 	General questions require general solution methods, and Kohn was particularly well trained in one class of them: the variational methods of mathematical physics. Such methods were a particular specialty of the department of applied mathematics at the University of Toronto, where Kohn had earned his BA and MA degrees. The local experts there were chairperson John Lighton Synge and two of Kohn’s mentors, Alexander Weinstein and Arthur Stevenson. Another virtuoso of variational methods, Julian Schwinger, supervised his Harvard PhD thesis, which introduces what is today called the Kohn variational principle. From the reminiscence paper, or from any technical review of DFT, one can learn how variational methods are central to the proof of the Hohenberg–Kohn theorem and to the derivation of the Kohn–Sham equations.
 \end{quote}
+
 一般性的问题需要一般性的解决方法，而科恩在其中一类方法上受过特别好的训练：数学物理的变分方法。这些方法是多伦多大学应用数学系的一个特殊专业，科恩在那里获得了他的学士和硕士学位。当地的专家有系主任John Lighton Synge和科恩的两位导师Alexander Weinstein和Arthur Stevenson。另一位变分方法的大师Julian Schwinger监督了他的哈佛博士论文，该论文引入了今天称为Kohn变分原理的方法。从回忆录论文或任何关于DFT的技术评论中，人们可以了解到变分方法在Hohenberg-Kohn定理的证明和Kohn-Sham方程的推导中是多么重要。
 
 \section{写出静电场下单个氢气分子的精确哈密顿量（使用原子单位）}
@@ -137,25 +140,15 @@ image:
 \end{align*}
 
 \section{在Hartree-Fock近似下，说明关联能的来源及其定义，说明关联能不会大于零，并列举解决电子关联问题的常用方法}
-关联能的来源是由于Hartree-Fock方法仅考虑了电子间的平均场相互作用，而忽略了电子之间的瞬时相互作用和动态相关性。关联能定义为真实体系的总能量与Hartree-Fock近似下计算得到的总能量之差，即
-\[E_{corr} = E_{exact} - E_{HF} \]
-由于Hartree-Fock方法通过变分原理得到的能量是体系的最低能量近似，因此真实体系的能量总是低于或等于Hartree-Fock计算得到的能量，即
-\[E_{exact} \leq E_{HF} \]
-因此，关联能不会大于零，即
-\[E_{corr} \leq 0 \]
-常用的解决电子关联问题的方法包括：
-\begin{enumerate}
-	\item Post-Hartree-Fock方法
-	      \begin{itemize}
-	      	\item 配置相互作用（CI, Configuration Interaction）方法：通过考虑多个电子配置来描述电子关联。
-	      	\item 耦合簇（CC, Coupled Cluster）方法：通过指数算符来包含高阶电子关联效应。
-	      	\item Møller–Plesset微扰（MP2）理论：基于Hartree-Fock参考态，通过微扰展开来计算关联能。
-	      	\item 多体微扰理论（MBPT）：通过微扰展开来考虑电子间的相互作用。
-	      	\item 密度矩阵重正化群（DMRG）：适用于一维和准一维体系的强关联问题。
-	      	\item 量子蒙特卡罗（QMC）方法：通过随机采样来计算多电子体系的性质。
-	      \end{itemize}
-	\item 密度泛函理论（Density Functional Theory, DFT）
-\end{enumerate}
+
+所谓的“关联”指波函数不能写为单粒子波函数的乘积形式：
+\[ \Phi(r_1,r_2,\ldots，r_n) \neq \phi(r_1)\phi(r_2)\cdots\phi(r_n)\]
+
+因为使用单电子波函数的乘积不是系统的基态，计算出来的总能量比真实基态的总能量高，它们之间差值就是关联能。
+\[E_c = \langle H\rangle - \langle H\rangle_{HF} \leq 0\]
+
+常用的修正电子的关联相互作用的方法有：
+Configuration Interaction (CI), Coupled Cluster (CC), M{\o}ller-Plesset Perturbation Theory ...
 
 \section{利用变分原理推导Hartree-Fock方法交换积分的变分导数}
 \begin{align*}
@@ -171,11 +164,11 @@ image:
 \end{align*}
 
 \section{对比Thomas-Fermi理论和密度泛函理论，说明密度泛函理论在哪些方面做了改进}
-首先，Thomas-Fermi理论没有考虑电子的交换和关联效应（这点被Dirac修正，加上了基于自由电子气/平面波的交换项\,$C_X\int\rho^{4/3}(r)dr$）。而密度泛函理论通过引入交换-关联泛函\,$E_{xc}[\rho]$，有效地考虑了电子的交换和关联效应。
 
-其次，TF以及TFD理论中的动能泛函是基于均匀电子气近似的，这在处理非均匀电子密度时存在局限性，动能项的误差甚至与动能项自身数量级相当。密度泛函理论通过引入更复杂的动能泛函（如Kohn-Sham方法中的动能项），提高了对非均匀电子密度的描述能力。
+TFD 理论提出总能量是电子密度的泛函，但是其中电子动能项的密度泛函形式过于简单，导致计算误差较大。
 
-最后，密度泛函理论通过Kohn-Sham方程引入了辅助单电子轨道，使得计算更加精确和可行。相比之下，Thomas-Fermi理论直接使用电子密度进行计算，缺乏对单电子行为的详细描述。
+DFT 理论不是使用电子密度，而是使用电子波函数来计算动能项。这种方法计算精度高，避免动能项没有精确泛函的问题，
+同时把动能项和电子间库仑相互作用的误差都放在交换关联势中，这部分能量占比较小。
 
 \section{写出Kohn-Sham 方程，详细说明其中每一项物理意义}
 Kohn-Sham equation:
@@ -196,42 +189,138 @@ Kohn-Sham equation:
 
 \section{当前流行的交换关联函主要有哪些？试比较它们的各自应用特点}
 
-当前流行的交换-关联函数主要包括以下几种：
 \begin{itemize}
-	\item 局域密度近似（LDA, Local Density Approximation）：适用于电子密度变化较平缓的体系，如金属和简单半导体。LDA计算效率高，但在处理强关联体系时表现不佳。
-	\item 广义梯度近似（GGA, Generalized Gradient Approximation）：通过引入电子密度梯度信息，改进了LDA的不足。GGA在处理分子和复杂材料时表现更好，常用的GGA函数包括PBE和BLYP。
-	\item 混合泛函（Hybrid Functionals）：结合了Hartree-Fock交换与DFT交换-关联能量，如B3LYP和PBE0。混合泛函在计算有机分子和过渡金属化合物时表现优异，但计算成本较高。
-	\item 范围分离泛函（Range-separated Functionals）：通过将交换作用分为短程和长程部分，提高了对长程相互作用的描述能力，适用于大分子和弱相互作用体系。
-	\item 元GGA（Meta-GGA）：在GGA基础上进一步引入了动能密度等高阶信息，如TPSS和SCAN，提供了更精确的描述，适用于多种材料体系。
+	\item LDA \\
+        共价系统，简单金属
+	\item DFT+U \\
+        Mott绝缘体，强关联材料
+	\item GGA \\
+        分子，氢键材料，密度变化大的 d 态及 f 态，大多数磁性材料，特殊的金属
+	\item Non-local hybrids and sX \\
+        带隙，特殊的磁性材料
+	\item van der Waals \\
+        层状材料等
 \end{itemize}
 
 \section{以氢原子为例，根据量子力学求解出来的波函数，计算其在LDA下的动能、外势场能、库伦能、交换能和关联能（PW92）}
-氢原子的基态波函数为：
-\[\psi_{1s}(r) = \frac{1}{\sqrt{\pi}} e^{-r} \]
-电子密度为：
-\[\rho(r) = |\psi_{1s}(r)|^2 = \frac{1}{\pi} e^{-2r} \]
-\subsection*{动能}
-\begin{align*}
-	T[\rho] & = -\frac{1}{2} \int \psi_{1s}^*(r) \nabla^2 \psi_{1s}(r) dr \\
-	        & = -\frac{1}{2} \int \frac{1}{\sqrt{\pi}} e^{-r} \nabla^2 \left(\frac{1}{\sqrt{\pi}} e^{-r}\right) dr \\
-	        & = \frac{1}{2} \int \frac{1}{\pi} e^{-2r} dr = \frac{1}{2}
-\end{align*}
-\subsection*{外势场能}
-\begin{align*}
-	V_{ext}[\rho] & = \int v_{ext}(r) \rho(r) dr = \int -\frac{1}{r} \cdot \frac{1}{\pi} e^{-2r} dr = -1
-\end{align*}
-\subsection*{库伦能}
-\begin{align*}
-	U_{cl}[\rho] & = \frac{1}{2} \iint \frac{\rho(r)\rho(r')}{|r - r'|} dr dr' = \frac{1}{2} \iint \frac{\frac{1}{\pi} e^{-2r} \cdot \frac{1}{\pi} e^{-2r'}}{|r - r'|} dr dr' = \frac{5}{8}
-\end{align*}
-\subsection*{交换能}
-\begin{align*}
-	E_{x}^{LDA}[\rho] & = -C_x \int \rho^{4/3}(r) dr = -\frac{3}{4}\left(\frac{3}{\pi}\right)^{1/3} \int \left(\frac{1}{\pi} e^{-2r}\right)^{4/3} dr = -\frac{3}{4}\left(\frac{3}{\pi}\right)^{1/3} \cdot \frac{3\pi^{1/3}}{8} = -\frac{9}{32}(3)^{1/3}
-\end{align*}
-\subsection*{关联能}
-根据PW92泛函，氢原子的关联能为零：
-\[E_{c}^{PW92}[\rho] = 0 \]
+
+    \[
+        \nabla^2 = \frac{\partial^2}{\partial x^2}
+                   + \frac{\partial^2}{\partial y^2}
+                   + \frac{\partial^2}{\partial z^2}
+                 = \frac{1}{r^2} \frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right)
+                   + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)
+                   + \frac{1}{r^2\sin^2\theta}\frac{\partial^2}{\partial\phi^2}                    
+    \]
+    \[dr = r^2 \sin\theta dr d\theta d\phi\]
+    \[\Phi = \frac{1}{\sqrt\pi}e^{-r}\]
+    \[\rho = \Phi^*\Phi = \frac1\pi e^{-2r}\]
+    \begin{align*}
+        T &= \int \Phi^*(-\frac12\nabla^2)\Phi dr
+           = -\frac{1}{2\pi}\int e^{-r} \left[\frac{1}{r^2}\frac{\partial}{\partial r}(r^2\frac{\partial}{\partial r})e^{-r}\right] dr \\
+          &= \frac{1}{2\pi} \int e^{-r} \frac{2r-r^2}{r^2}e^{-r}r^2dr\sin\theta d\theta d\phi
+           = 2\int(2r-r^2)e^{-2r}dr
+           = \frac12
+    \end{align*}
+    \[
+        E_{ext} = \int\Phi^*(-\frac1r)\Phi dr
+                = -\frac1\pi \int \frac1r e^{-r}r^2dr\sin\theta d\theta d\phi
+                = -4\int re^{-2r} dr
+                = -1
+    \]
+    \begin{align*}
+        E_x &= \int\rho\varepsilon_x(\rho)dr
+             = -\frac34\left(\frac3\pi\right)^{\frac13}\int\rho^{\frac43}r^2dr\sin\theta d\theta d\phi \\
+            &= -3\left(\frac{3}{\pi^2}\right)^{\frac13}\int r^2e^{-\frac83r}dr
+             = -\left(\frac34\right)^4\left(\frac{3}{\pi^2}\right)^{\frac13}
+             = -0.2127
+    \end{align*}
+        \[
+        \rho\varepsilon_c(\rho)
+        = \rho(-2A)(1+\alpha_1 r_s)
+          \ln\left(
+          1+\frac{1}{2A(\beta_1 r_s^{\frac12}
+          + \beta_2 r_s
+          + \beta_3 r_s^{\frac32}
+          + \beta_4 r_s^2)}
+          \right)
+    \]
+    \[
+        r_s = \left(\frac{3}{4\pi\rho}\right)^{1/3},
+        \qquad
+        \rho = \frac1\pi e^{-2r}
+    \]
+    \[
+        A = 0.031091,\quad
+        \alpha_1 = 0.2137,\quad
+        \beta_1 = 7.5957,\quad
+        \beta_2 = 3.5876,\quad
+        \beta_3 = 1.6382,\quad
+        \beta_4 = 0.49294
+    \]
+    \[
+        E_c = \int \rho\varepsilon_c(\rho)dr
+            = \int \rho\varepsilon_c(\rho)r^2dr\sin\theta d\theta d\phi
+            = 4\pi\int \rho\varepsilon_c(\rho)r^2dr
+            = -0.0414
+    \]
+
+    \begin{align*}
+        E_{cl}
+        &= \frac12\iint \frac{\rho(r)\rho(r')}{|r-r'|}drdr'
+         = \frac12\int dr\rho(r)\int \frac{\rho(r')}{|r-r'|}dr' \\
+        &= \frac12\int dr\rho(r)U(r)
+    \end{align*}
+
+    \begin{align*}
+        U(r)
+        &= \int \frac{\rho(r')}{|r-r'|}dr' \\
+        &= \frac1\pi\int
+        \frac{e^{-2r'}}{\sqrt{r^2+r'^2-2rr'\cos\theta'}}
+        r'^2\sin\theta' dr'd\theta'd\phi' \\
+        &= 2\int dr' r'^2e^{-2r'}
+        \int \frac{\sin\theta' d\theta'}
+        {\sqrt{r^2+r'^2-2rr'\cos\theta'}} \\
+        &= 2\int dr' r'^2e^{-2r'}
+        \frac{1}{2rr'}
+        \int
+        \frac{d(r^2+r'^2-2rr'\cos\theta')}
+        {\sqrt{r^2+r'^2-2rr'\cos\theta'}} \\
+        &= \int dr' r'^2e^{-2r'}
+        \frac{2}{rr'}
+        \sqrt{r^2+r'^2-2rr'\cos\theta'}
+        \bigg|_0^\pi \\
+        &= \int dr' r'^2e^{-2r'}
+        \frac{2}{rr'}(r+r'-|r-r'|)
+    \end{align*}
+
+    \[
+        U(r)
+        =
+        \begin{cases}
+            \dfrac4r\displaystyle\int dr' r'^2e^{-2r'}, & r>r' \\[1.2em]
+            4\displaystyle\int dr' r'e^{-2r'}, & r\leq r'
+        \end{cases}
+        =
+        \frac1r-\frac1r e^{-2r}-e^{-2r}
+    \]
+
+    \begin{align*}
+        E_{cl}
+        &= \frac12\iint \frac{\rho(r)\rho(r')}{|r-r'|}drdr'
+         = \frac12\int dr\rho(r)U(r) \\
+        &= \frac12\int dr\rho(r)
+        \left(\frac1r-\frac1r e^{-2r}-e^{-2r}\right) \\
+        &= \frac{1}{2\pi}\int e^{-2r}
+        \left(\frac1r-\frac1r e^{-2r}-e^{-2r}\right)
+        r^2dr\sin\theta d\theta d\phi \\
+        &= 2\int (re^{-2r}-re^{-4r}-r^2e^{-4r})dr \\
+        &= \frac{5}{16}
+    \end{align*}
+
+
 
 \end{document}
 ```
 
+2026 年 5 月 21 日 更新 Q10 正确解
