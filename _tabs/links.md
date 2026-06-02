@@ -4,7 +4,7 @@ icon: fas fa-forward
 order: 5
 ---
 
-# about some External links that may be useful?
+# Friends Links
 
 | Destination | Link to | Description |
 |------|------|------|
