@@ -4,7 +4,7 @@ icon: fas fa-forward
 order: 5
 ---
 
-# Friend Links
+# Friend Links.
 
 | Destination | Link to | Description |
 |------|------|------|
