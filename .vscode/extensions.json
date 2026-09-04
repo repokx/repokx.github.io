@@ -1,3 +1,9 @@
 {
-  "recommendations": ["ms-vscode-remote.remote-containers"]
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "shopify.theme-check-vscode",
+    "stylelint.vscode-stylelint",
+    "yzhang.markdown-all-in-one"
+  ]
 }
