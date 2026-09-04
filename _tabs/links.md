@@ -4,30 +4,28 @@ icon: fas fa-forward
 order: 5
 ---
 
-# Friend Links.
+# Friend links
 
-| Destination | Link to | Description |
-|------|------|------|
-| Scientia | [![Scientia Blog](https://img.shields.io/badge/Scientia-Blog-blue?logo=cplusplus)](https://www.husq.online/) | Husky's Blog |
+| Site | Description |
+| --- | --- |
+| [Scientia](https://www.husq.online/) | Husky's blog |
 
-# My Links
+# Elsewhere
 
-| Platform | Link to |
-|-----|-----|
-| 往期存档   | [![Archive](https://img.shields.io/badge/Archive-往期存档-skyblue?logo=github)](https://repoxu.top/archive) |
-| Github    | [![GitHub](https://img.shields.io/badge/GitHub-repokx-blue?logo=github)](https://github.com/repokx) |
-| 博客园    | [![博客园](https://img.shields.io/badge/博客园-RepoXu-blue?logo=cnblogs)](https://www.cnblogs.com/repoxu) |
-| Facebook  | [![Facebook](https://img.shields.io/badge/Facebook-repokx-1877F2?logo=facebook)](https://www.facebook.com/repokx) |
-| CSDN      | [![CSDN](https://img.shields.io/badge/CSDN-Repo_Kristx-FF4C00?logo=csdn)](https://blog.csdn.net/weixin_44324447) |
-| NGA       | [![NGA](https://img.shields.io/badge/NGA-Repo_Kristx-FFB90F?logo=nga)](https://nga.178.com/nuke.php?func=ucp&uid=62459644) |
-| Pixiv     | [![Pixiv](https://img.shields.io/badge/Pixiv-Repo-blue?logo=pixiv)](https://www.pixiv.net/users/21347155) |
-| X(旧Twitter) | [![Twitter](https://img.shields.io/badge/Twitter-@repokx1-1DA1F2?logo=twitter)](https://x.com/repokx1) |
-| 哔哩哔哩  | [![哔哩哔哩](https://img.shields.io/badge/Bilibili-暮色遐想-pink?logo=bilibili)](https://space.bilibili.com/29035369) |
-| 知乎      | [![知乎](https://img.shields.io/badge/知乎-暮色遐想-0084FF?logo=zhihu)](https://www.zhihu.com/people/mu-se-xia-xiang) |
+| Platform | Profile |
+| --- | --- |
+| Archive | [Earlier writing](https://repoxu.top/archive) |
+| GitHub | [repokx](https://github.com/repokx) |
+| 博客园 | [RepoXu](https://www.cnblogs.com/repoxu) |
+| Facebook | [repokx](https://www.facebook.com/repokx) |
+| CSDN | [Repo_Kristx](https://blog.csdn.net/weixin_44324447) |
+| NGA | [Repo_Kristx](https://nga.178.com/nuke.php?func=ucp&uid=62459644) |
+| Pixiv | [Repo](https://www.pixiv.net/users/21347155) |
+| X | [@repokx1](https://x.com/repokx1) |
+| 哔哩哔哩 | [暮色遐想](https://space.bilibili.com/29035369) |
+| 知乎 | [暮色遐想](https://www.zhihu.com/people/mu-se-xia-xiang) |
 
-# My E-Mail
+# Contact
 
-| Platform | Link to |
-|-----|-----|
-| 163 邮箱  | [![Email](https://img.shields.io/badge/Email-repoexr%40163.com-blue?logo=minutemailer&logoColor=white)](mailto:repoexr@163.com) |
+[repoexr@163.com](mailto:repoexr@163.com)
 

@@ -37,16 +37,17 @@
   &.toast {
     &.show {
       display: block;
-      min-width: 20rem;
+      width: min(22rem, calc(100vw - 2rem));
       border-radius: 0.5rem;
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
-      background-color: rgb(255 255 255 / 50%);
-      color: #1b1b1eba;
+      background-color: color-mix(in srgb, var(--card-bg) 92%, transparent);
+      border: 1px solid var(--main-border-color);
+      box-shadow: var(--card-shadow);
+      color: var(--text-color);
       position: fixed;
-      left: 50%;
-      bottom: 20%;
-      transform: translateX(-50%);
+      right: 1.5rem;
+      bottom: 1.5rem;
       -webkit-animation: popup 0.8s;
       animation: popup 0.8s;
     }

@@ -14,13 +14,13 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings > https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Repository # the main title
+title: Repo Xu # the main title
 
-tagline: endless learning
+tagline: Notes from an endless learning journey
 # Avoid the distractions of unsubstaintial ideas and superficial fame # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Fluctuat nec mergitur.
+  Notes on materials science, computational physics, technology, and life.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

@@ -4,22 +4,24 @@ icon: fas fa-info-circle
 order: 4
 math: true
 ---
-# ☕🥳
+# Hello! ☕
 
-Hello there, I'm Repo, currently a Graduate Student in `Nuclear Energy Science and Technology` **(NEST)** at `University of Chinese Academy of Sciences` **(UCAS)**.
+I'm Repo, a graduate student in Nuclear Energy Science and Technology at the
+University of Chinese Academy of Sciences (UCAS).
 
-This blog is focuing on a recording of my `Learning Journey`, my `Research Career`, and some `Tech Tricks` about all aspects. 
+This blog records my learning journey, research, and the technical problems I
+encounter along the way. Its main subjects include nuclear science, materials
+science, computational methods, LaTeX, Git, and personal website development.
+I also write about graduate life, self-management, and the ideas that help me
+grow.
 
-Also there will be some knowledge sharing of `Nuclear Science`, `Material Science`. Some skills about Lecture Notes, Journal Reading, Computational Methods, LaTeX Writing, Git and Personal Website Building, etc. 
+I hope this site becomes more than a knowledge repository: a durable record of
+how my work and thinking develop over time. If something here helps you, I will
+be delighted.
 
-I will start some of my research projects in the future **not so far**, so I believe there will be tons of things to share about that.
+Suggestions, discussion, and criticism are always welcome. You can reach me at
+[repoexr@163.com](mailto:repoexr@163.com).
 
-Oh, and some of my graduate life, self-control, and Thoughts about learing. These thought are really precious for me, as I could use these to be a better me.
+— **Repo Xu**, beside Lake Yanqi
 
-Hope this blog can not only be a Knowledge Repository, but also a routine about my growth.
-
-If some of the contents can be helpful for you, then it's really a pleasure for me. <u>Any suggestions, comments, discussions, and even criticisms are all welcome.</u> my email is [repoexr@163.com](mailto:repoexr@163.com)
-
-**RepoXu** writing beside Lake YanQi
-
-2026/5/20
+May 20, 2026
