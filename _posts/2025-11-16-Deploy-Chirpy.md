@@ -2,7 +2,7 @@
 title: 部署 jekyll-theme-chirpy 遇到的困难
 # description: >-
 author: repo
-date: 2025-11-16 24:00:00 +0800
+date: 2025-11-17 00:00:00 +0800
 categories: [IT Issue, Blogging]
 tags: [Website Building]
 # math: true

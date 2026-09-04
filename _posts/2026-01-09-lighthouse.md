@@ -3,6 +3,7 @@ title: 关于思考与行动的至高哲理
 # description: >- 
 author: repo
 date: 2026-01-09 18:30:00 +0800
+permalink: /posts/lighthouse-copy/
 categories: [Life, Philo]
 tags: [Reflections]
 # math: true

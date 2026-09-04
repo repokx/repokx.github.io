@@ -10,7 +10,7 @@ tags: [Noteable Sayings]
 # pin: false 
 # img_path: /src/
 image:
-    path: /assets/img/presidentxi2018nyspeech.png
+    path: /assets/img/presidentxi2018nyspeech.webp
     alt: Xi Jinping, General Secretary of Central Committee of the Communist Party of China and President of People’s Republic of China, delivers a New Year address to extend greetings to all Chinese and best wishes to friends all over the world in Beijing on December 31, 2017 (XINHUA)
 ---
 > Original Article Name: `Full text of President Xi's New Year address`

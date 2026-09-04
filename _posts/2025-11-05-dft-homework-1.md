@@ -3,6 +3,7 @@ title: UCAS DFT Homework 1
 # description: >-
 author: repo
 date: 2025-11-05 23:40:00 +0800
+permalink: /posts/DFT-homework1/
 categories: [Computational Physics, DFT]
 tags: [DFT]
 # math: true

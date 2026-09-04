@@ -36,18 +36,13 @@
     "@babel/preset-env": "^7.28.3",
     "@rollup/plugin-babel": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/exec": "^7.1.0",
-    "@semantic-release/git": "^10.0.1",
+    "@rollup/plugin-terser": "^1.0.0",
     "concurrently": "^9.2.1",
-    "conventional-changelog-conventionalcommits": "^9.1.0",
     "eslint": "^9.38.0",
     "globals": "^16.4.0",
     "husky": "^9.1.7",
     "purgecss": "^7.0.2",
     "rollup": "^4.52.5",
-    "semantic-release": "^25.0.1",
     "stylelint": "^16.25.0",
     "stylelint-config-standard-scss": "^16.0.0"
   },
@@ -58,77 +53,5 @@
     "last 2 versions",
     "> 0.2%",
     "not dead"
-  ],
-  "release": {
-    "branches": [
-      "production"
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      [
-        "@semantic-release/release-notes-generator",
-        {
-          "preset": "conventionalcommits",
-          "presetConfig": {
-            "types": [
-              {
-                "type": "feat",
-                "section": "Features"
-              },
-              {
-                "type": "fix",
-                "section": "Bug Fixes"
-              },
-              {
-                "type": "perf",
-                "section": "Improvements"
-              },
-              {
-                "type": "refactor",
-                "section": "Changes",
-                "hidden": true
-              }
-            ]
-          }
-        }
-      ],
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "docs/CHANGELOG.md",
-          "changelogTitle": "# Changelog"
-        }
-      ],
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
-      [
-        "@semantic-release/exec",
-        {
-          "prepareCmd": "bash tools/release.sh --prepare",
-          "publishCmd": "bash tools/release.sh"
-        }
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "docs",
-            "package.json",
-            "*.gemspec"
-          ],
-          "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
-        }
-      ],
-      "@semantic-release/github"
-    ]
-  }
+  ]
 }
